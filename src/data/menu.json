@@ -1,0 +1,171 @@
+{
+  "categories": [
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "icon": "cafe-outline"
+    },
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "icon": "nutrition-outline"
+    },
+    {
+      "id": "mains",
+      "name": "Main Courses",
+      "icon": "restaurant-outline"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "icon": "ice-cream-outline"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "name": "Espresso",
+      "price": 2.50,
+      "category": "beverages",
+      "description": "Rich, bold espresso shot",
+      "variations": [
+        { "id": "single", "name": "Single Shot", "priceModifier": 0 },
+        { "id": "double", "name": "Double Shot", "priceModifier": 1.50 }
+      ],
+      "modifiers": [
+        { "id": "extra-hot", "name": "Extra Hot", "price": 0, "category": "Temperature" },
+        { "id": "decaf", "name": "Decaf", "price": 0, "category": "Coffee Options" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Cappuccino",
+      "price": 4.00,
+      "category": "beverages",
+      "description": "Espresso with steamed milk and foam",
+      "variations": [
+        { "id": "small", "name": "Small (8oz)", "priceModifier": 0 },
+        { "id": "large", "name": "Large (12oz)", "priceModifier": 1.00 }
+      ],
+      "modifiers": [
+        { "id": "whole-milk", "name": "Whole Milk", "price": 0, "category": "Milk Options" },
+        { "id": "almond-milk", "name": "Almond Milk", "price": 0.60, "category": "Milk Options" },
+        { "id": "oat-milk", "name": "Oat Milk", "price": 0.65, "category": "Milk Options" },
+        { "id": "extra-foam", "name": "Extra Foam", "price": 0, "category": "Customization" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Iced Coffee",
+      "price": 3.50,
+      "category": "beverages",
+      "description": "Cold brew coffee served over ice",
+      "modifiers": [
+        { "id": "vanilla-syrup", "name": "Vanilla Syrup", "price": 0.50, "category": "Syrups" },
+        { "id": "caramel-syrup", "name": "Caramel Syrup", "price": 0.50, "category": "Syrups" },
+        { "id": "extra-ice", "name": "Extra Ice", "price": 0, "category": "Ice Options" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Bruschetta",
+      "price": 8.50,
+      "category": "appetizers",
+      "description": "Toasted bread with fresh tomatoes, basil, and garlic",
+      "modifiers": [
+        { "id": "extra-basil", "name": "Extra Basil", "price": 0.50, "category": "Herbs" },
+        { "id": "balsamic-glaze", "name": "Balsamic Glaze", "price": 0.75, "category": "Sauces" }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Caesar Salad",
+      "price": 12.00,
+      "category": "appetizers",
+      "description": "Romaine lettuce with caesar dressing, croutons, and parmesan",
+      "variations": [
+        { "id": "small", "name": "Small", "priceModifier": 0 },
+        { "id": "large", "name": "Large", "priceModifier": 4.00 }
+      ],
+      "modifiers": [
+        { "id": "grilled-chicken", "name": "Grilled Chicken", "price": 4.00, "category": "Proteins" },
+        { "id": "extra-parmesan", "name": "Extra Parmesan", "price": 1.00, "category": "Cheese" },
+        { "id": "no-croutons", "name": "No Croutons", "price": 0, "category": "Customization" }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Grilled Salmon",
+      "price": 22.00,
+      "category": "mains",
+      "description": "Atlantic salmon with seasonal vegetables and lemon butter",
+      "modifiers": [
+        { "id": "rice-pilaf", "name": "Rice Pilaf", "price": 0, "category": "Sides" },
+        { "id": "mashed-potatoes", "name": "Mashed Potatoes", "price": 1.50, "category": "Sides" },
+        { "id": "extra-lemon", "name": "Extra Lemon", "price": 0, "category": "Garnish" }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Beef Burger",
+      "price": 16.50,
+      "category": "mains",
+      "description": "8oz beef patty with lettuce, tomato, and special sauce",
+      "modifiers": [
+        { "id": "cheese", "name": "Cheese", "price": 1.50, "category": "Toppings" },
+        { "id": "bacon", "name": "Bacon", "price": 2.00, "category": "Toppings" },
+        { "id": "avocado", "name": "Avocado", "price": 2.50, "category": "Toppings" },
+        { "id": "fries", "name": "French Fries", "price": 4.00, "category": "Sides" },
+        { "id": "sweet-potato-fries", "name": "Sweet Potato Fries", "price": 5.00, "category": "Sides" }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Margherita Pizza",
+      "price": 18.00,
+      "category": "mains",
+      "description": "Fresh mozzarella, tomato sauce, and basil",
+      "variations": [
+        { "id": "personal", "name": "Personal (10\")", "priceModifier": 0 },
+        { "id": "medium", "name": "Medium (12\")", "priceModifier": 4.00 },
+        { "id": "large", "name": "Large (16\")", "priceModifier": 8.00 }
+      ],
+      "modifiers": [
+        { "id": "extra-cheese", "name": "Extra Cheese", "price": 2.00, "category": "Cheese" },
+        { "id": "pepperoni", "name": "Pepperoni", "price": 2.50, "category": "Meats" },
+        { "id": "mushrooms", "name": "Mushrooms", "price": 1.50, "category": "Vegetables" }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Chocolate Lava Cake",
+      "price": 7.50,
+      "category": "desserts",
+      "description": "Warm chocolate cake with molten center, served with vanilla ice cream",
+      "modifiers": [
+        { "id": "extra-ice-cream", "name": "Extra Ice Cream", "price": 2.00, "category": "Add-ons" },
+        { "id": "berry-sauce", "name": "Berry Sauce", "price": 1.00, "category": "Sauces" }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Tiramisu",
+      "price": 6.50,
+      "category": "desserts",
+      "description": "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone",
+      "modifiers": [
+        { "id": "extra-cocoa", "name": "Extra Cocoa Powder", "price": 0, "category": "Garnish" }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Fresh Fruit Tart",
+      "price": 5.50,
+      "category": "desserts",
+      "description": "Pastry shell filled with custard and topped with seasonal fruit",
+      "modifiers": [
+        { "id": "whipped-cream", "name": "Whipped Cream", "price": 1.00, "category": "Add-ons" }
+      ]
+    }
+  ]
+}
